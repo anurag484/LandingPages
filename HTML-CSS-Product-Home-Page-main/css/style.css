@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+nav{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.nav-items{
+    position: relative;
+    top: -40px;
+    left: 400px;
+    right: 0;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    display: inline-block;
+    /* padding: auto; */
+    margin: auto;
+    margin-left: 70px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 200;
+}
+
+nav img:last-child{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    height: 40px;
+}
+
+.active-item{
+    color: #fe5e35;
+    font-weight: 700;
+}
+
+.intro-section{
+    padding-left: 30px;
+}
+
+div>h3{
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+div>h3>img{
+    height: 37px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    /* padding-top: 20px; */
+}
+
+.left-section h1{
+    font-family: "Fredoka One";
+    font-size: 80px;
+    /* letter-spacing: 4px; */
+    position: relative;
+    /* top: -20px; */
+    line-height: 10px;
+}
+
+.sub-headlines{
+    padding-left: 80px;
+    padding-top: 10px;
+    line-height: 0px;
+}
+
+.sub-headlines h5{
+    display: flex;
+    /* margin: auto; */
+    flex-direction: row;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 30px;
+    align-items: center;
+    line-height: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sub-headlines h5 img{
+    background-color: #fe5e35;
+    border-radius: 50%;
+    height: 15px;
+    border: 8px solid #fe5e35;
+    margin-right: 20px;
+}
+
+.text{
+    font-family: "Poppins";
+    color: #b8b8b8;
+    word-wrap: break-word;
+    inline-size: 796px;
+}
+
+.action-btn{
+    height: 50px;
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 30px;
+    border: 1px solid #fe5e35;
+    background-color: #fe5e35;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.right-section{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.discount{
+    position: relative;
+    top: 370px;
+    right: 175px;
+    height: 130px;
+    filter: drop-shadow(4px 7px rgba(70, 65, 65, 0.385));
+}
+
+.headphone-div img:last-child{
+    position: relative;
+    top: -80px;
+    z-index: -1;
+    height: 450px;
+    right: 150px;
+}
+
+.discount-content{
+    position: relative;
+    top: 240px;
+    right: 140px;
+    color: #fff;
+    line-height: 10px;
+}
+
+.discount-content>h1{
+    position: absolute;
+    font-family: "Fredoka One";
+    font-size: 43px;
+    font-weight: 100;
+    right: 375px;
+    top: 20px;
+}
+
+.discount-content>h4{
+    position: relative;
+    font-family: "Fredoka One";
+    font-size: 15px;
+    font-weight: 100;
+    top: 2px;
+    /* left: 10px; */
+}
+
+.dots{
+    position: absolute;
+    display: inline-block;
+    top: 570px;
+}
+
+.yellow-dot{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #fbd104;
+    border-radius: 50%;
+    background-color: #fbd104;
+    /* left: 30px; */
+}
+.tomato-dot{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #fe5e35;
+    border-radius: 50%;
+    background-color: #fe5e35;
+    left: 60px;
+}
+.black-dot{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background-color: #000000;
+    left: 120px;
+}
+
+.right-section .action-btn{
+    position: absolute;
+    top: 642px;
+    left: -40px;
+    width: 170px;
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url(../images/wepik-photo-mode-2022626-0319.png);
+    max-height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center; */
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.bg-img{
+    background-image: url(../images/wepik-photo-mode-2022626-0319.png);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    z-index: -100;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding-top: 60px; */
+}
+.logo{
+    font-size: 30px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    /* margin-right: 50px; */
+}
+.right-nav{
+    /* margin-left: 300px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    column-gap: 150px;
+    height: 70px;
+    padding-top: 40px;
+    border-bottom: 3px solid #fff;
+    font-weight: 600;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    column-gap: 80px;
+}
+.contact{
+    display: flex;
+}
+.contact p{
+    padding-left: 30px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-left: 80px;
+}
+.main-text{
+    font-size: 70px;
+    margin-top: 70px;
+    word-wrap: break-word;
+    inline-size: 650px;
+    margin-bottom: 50px;
+}
+.left button{
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.right{
+    position: relative;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.201);
+    height: 150px;
+    width: 300px;
+    position: relative;
+}
+.img{
+    background-color: #fff;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.box .fa-solid{
+    padding-top: 4px;
+    color: black;
+}
+.box p{
+    text-align: center;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.box-1{
+    position: absolute;
+    left: 380px;
+}
+
+.box-2{
+    position: absolute;
+    top: 288px;
+}
+
+.line-1{
+    height: 70px;
+    position: absolute;
+    border-left: 1px solid #fff;
+    /* border-bottom-left-radius: 50%; */
+    top: 150px;
+    left: 200px;
+}
+.line-1::after{
+    position: absolute;
+    top: 70px;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: -7px;
+}
+
+.line-2{
+    width: 70px;
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    left: 300px;
+    top: 70px;
+}
+.line-2::after{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 70px;
+    top: -7px;
+}
+
+@media screen and (max-width: 1200px){
+    .main-content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    nav{
+        flex-direction: column;
+    }
+    .right-nav{
+        flex-direction: column;
+        row-gap: 30px;
+        border: none;
+    }
+    .list{
+        row-gap: 30px;
+    }
+    .main-content{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .main-text{
+        width: 100%;
+        inline-size: auto;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        row-gap: 120px;
+    }
+    .box-1{
+        position: static;
+    }
+    .box-2{
+        position: static;
+    }
+}
+
+@media screen and (max-width: 466px){
+    .main-text{
+        font-size: 30px;
+        margin-top: 90px;
+        width: 100%;
+        inline-size: auto;
+    }
+    .right{
+        justify-content: center;
+    }
+    .box{
+        width: 290px;
+        box-sizing: border-box;
+    }
+    .line-1{
+        display: none;
+    }
+    .line-2{
+        display: none;
+    }
+}
